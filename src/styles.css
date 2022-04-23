@@ -1,0 +1,41 @@
+.button {
+    background-color: rgb(102, 224, 218);
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.deleteButton {
+    background-color: red;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+label {
+    margin: 10px;
+}
+
+input {
+    border-radius: 5px;
+    border: gray 1px solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+.housesDiv {
+    border: solid black 2px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.col {
+    margin: 30px;
+    width: 33%;
+}
+
+.house-form {
+    margin: 20px
+}
