@@ -40,7 +40,7 @@ export const House = (props) => {
                 rooms({rooms, houseId: house._id, deleteRoom})
                 }
             <NewRoomForm addNewRoom={addNewRoom}/>
-            <button className="deleteButton" onClick={(e) => props.deleteHouse(house)}>DELETE</button>
+            <button className="deleteButton" onClick={(e) => props.deleteHouse(house)}>DELETE HOUSE</button>
         </div>
     )
 };
